@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is an example of a meta description. This will often show up in search results.">
+    <meta property="og:locale" content="sk_SK" />
+    <meta property="og:type" content="website" />
+    <meta name="keywords"content = "Mediacia, poradenstvo, problémy"/>
+    <meta name="description"content = "Pomôžeme vám sa dohodnúť aj bez súdu"/>
+    <meta name ="revised"content = "Kolek, 15/2/2023"/>
+    <meta name = "author" content = "Samuel Kolek" />
+    <title>Mediačná kancelária Filípková</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="vizual.css">
+    <link rel="stylesheet" href="script.js">
+    <meta name="picture" content="https://www.freepik.com/free-photo/business-people-shaking-hands-together_2753723.htm#query=consultation&position=45&from_view=search&track=sph Image by rawpixel.com on Freepik">
+    <meta name="picture" content="Image by https://www.freepik.com/free-photo/front-view-finance-business-elements-assortment_11621129.htm#query=money&position=0&from_view=search&track=sph on Freepik">
+    <meta name="picture" content="Image by https://www.freepik.com/free-photo/truth-concept-arrangement-with-balance_16691236.htm#query=justice&position=2&from_view=search&track=sph on Freepik">
+    <meta name="picture" content="https://www.freepik.com/free-photo/businessman-suit-protecting-wooden-blocks-from-falling-domino-effect_17344712.htm#query=mediation&position=25&from_view=search&track=sph Image by wirestock on Freepik">
+    <script src="https://kit.fontawesome.com/50b0275780.js" crossorigin="anonymous"></script>
+    <link rel = "icon" type = "image/png" href = "logo_kancel-removebg-preview.png">
+</head>
+<body>
+
+    <header>
+        <!-- start logo -->
+        <div class="logo">
+            <div class="img-logo">
+                <a href="#"><img src="logo_kancel-removebg-preview.png" class="custom-logo" alt="Jana Filípková - Mediačná kancelária"></a>
+            </div>
+            <div class="text-logo">
+                <span><p class="site-title"><a href="#" rel="home">JUDr. Jana Filípková</a></p></span>
+                <p class="site-description">Mediačná kancelária</p>
+            </div>
+        </div>
+        
+        
+        <!-- end logo -->
+    
+        <!-- start of navbar -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <nav class="navbar">
+    
+            <ul>
+                <li class="uvod"> <a href="index.html">Úvod</a></li>
+                <li class="meddiacia"> <a href="mediacia.html">Mediácia</a></li>
+                <li class="kodex"> <a href="kodex.html">Kódex</a></li>
+                <li class="cennik"> <a href="cennik.html">Cenník</a></li>
+                <li class="kontakt"> <a class="active" href="#">Kontakt</a></li>
+            </ul>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+        </label>
+    
+        <!-- end navbar -->
+    </header>
+
+    <!-- introduction picture starts -->
+
+    <div class="wrapper">
+        <img class="wrapper-img" src="business-people-shaking-hands-together-min.jpg" alt="business-people-shaking-hands-together">
+    </div>
+    <div class="wrapper-text" id="wrapper-text">
+        <span><h1 class="banner">Kontakt</h1></span>
+        <p class="undertext">Neváhajte ma kontaktovať <a href="#">ihneď</a></p>
+    </div>
+    <style>
+
+    </style>
+
+    <script>
+        let text = getElementById('wrapper-text');
+        window.addEventListener('scroll', function(){
+            let value = this.window.scrollY;
+            text.style.left = value *2 + 'px';
+
+        })
+    </script>
+
+    <!-- introduction picture ends -->
+
+
+
+
+    <!-- kontakt section starts -->
+
+    <section class="contact">
+        <main class="grid-body">
+            <div class="contact-info">
+                <h1>Mediátorka: JUDr. Jana Filípková</h1>
+                <p>- zapísaná Ministerstvom spravodlivosti SR do registra mediátorov pod ev. číslom 2210</p>
+                <br>
+                <h2>Mobil</h2>
+                <p>0907 248 154</p>
+                <br>
+                <h2>Email</h2>
+                <p>mediatorka.ma@gmail.com</p>
+                <br>
+                <h2>Kancelária</h2>
+                <p>Kláštorné nám. 66/4</p>
+                <p>901 01 Malacky</p>
+                <br>
+                <h2>Korešpondenčná adresa</h2>
+                <p>Jozefa Kubinu 6009/59</p>
+                <p>901 01 Malacky</p>
+                <br>
+                <h2>Právne informácie</h2>
+                <p><span>IČO:</span> 55 173 349</p>
+            
+            </div>
+            
+ 
+            <div class="container">
+                <form method="post" name="contact_form" action="contact-form-handler.php">
+                    <h3>Napíšte mi ihneď</h3>
+                    <input type="text" id="name" placeholder="Meno" required>
+                    <input type="email" id="email" placeholder="Email" required>
+                    <textarea  id="message"  rows="4" placeholder="Ako vám môžem pomôcť"></textarea>
+                    <input class="submit" type="submit" value="ODOSLAŤ">
+
+
+                </form>
+            </div> 
+    <!-- footer -->
+            <footer class="footer">
+
+                <div class="container-footer">
+                    <div class="row">
+                        <div class="footer-col">
+                            <h4>Kontakt</h4>
+                            <ul>
+                                <li><i class="fa-solid fa-phone"></i><a href="tel:Number">0908 201 382</a></li>
+                                <li><i class="fa-solid fa-envelope"></i><a href="mailto:kolek.code@gmail.com?subject=Potrebujem pomoc">kolek.code@gmail.com</a></li>
+                                <li><i class="fa-solid fa-building"></i><a href="https://goo.gl/maps/MMeQo7zyRqv3YTSbA" target="_blank">Kláštorné nám. 66/4 <br> 901 01 Malacky </a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Dôležité odkazy</h4>
+                            <ul>
+                                <li><a href="index.html">Úvod</a></li>
+                                <li><a href="mediacia.html">Mediácia</a></li>
+                                <li><a href="kodex.html">Kódex</a></li>
+                                <li><a href="cennik.html">Cenník</a></li>
+                                <li><a href="kontakt.html">Kontakt</a></li>
+                            </ul>
+                        </div>
+                        <div class="logo-footer">
+                            <img src="logo_kancel-removebg-preview.png" alt="">
+                            <h5 class="text-footer">Mediačná kancelária - JUDr. Jana Filípková</h5>
+                        </div>
+
+                    </div>
+
+                </div>
+                
+        
+            </footer>
+        </main>
+
+        <div class="ending">
+            <p>@ 2023 <a href="mailto:kolek.code@gmail.com">kolek.code</a></p>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- kontakt section ends -->
+
+
+
+
+    
+
+
+    
+</body>
+</html>
