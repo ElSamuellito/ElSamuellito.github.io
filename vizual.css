@@ -674,6 +674,9 @@ header .navbar a.active{
         height: 400px;
         object-fit: cover;
     }
+    .undertext{
+        font-size: 1.1rem;
+    }
 }
 @media screen and (min-width: 800px){
     .wrapper-text{
