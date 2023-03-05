@@ -215,7 +215,7 @@ header p{
     width: 101%;
     min-height: 200px;
     height: fit-content;
-    filter: brightness(38%) sepia(50%) ;
+    filter: brightness(60%) sepia(50%) ;
     /* filter: brightness(10%); */
     border-radius: 1px;
 
@@ -239,7 +239,7 @@ header p{
 .undertext{
     color: rgb(194, 194, 194);
     letter-spacing: 1px;
-    font-size: .9rem;
+    font-size: 1.1rem;
     /* font-family: Arial, Helvetica, sans-serif; */
 }
 .undertext a{
@@ -337,7 +337,7 @@ form input, form textarea{
 }
 .footer{
     margin-top: 50px;
-    background-color: #694412;
+    background-color: #b48950;
     padding: 30px;
     border: none;
 
@@ -422,7 +422,7 @@ ul{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(65, 34, 0);
+    background-color: rgb(119, 84, 47);
     /* margin-top: 1px; */
     margin-bottom: 0;
     padding-bottom: 0;
@@ -625,6 +625,7 @@ header .navbar a.active{
     }
 
 
+
   
 }
 
@@ -634,7 +635,7 @@ header .navbar a.active{
         top: 175px;
     }
     .banner{
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     .logo-footer img{
         margin-left: 400%;
@@ -645,6 +646,9 @@ header .navbar a.active{
     section.contact {
         top: 400px;
         
+    }
+    .undertext{
+        font-size: 2rem;
     }
 
 }
@@ -674,13 +678,11 @@ header .navbar a.active{
         height: 400px;
         object-fit: cover;
     }
-    .undertext{
-        font-size: 1.1rem;
-    }
+
 }
 @media screen and (min-width: 800px){
     .wrapper-text{
-        font-size: small;
+        font-size: 2.5rem;
     }
     .wrapper-img{
         position: fixed;
